@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.main{
+    padding-top: 10px;
+}
+
+#light .main {
+    background-color: #FFFFFF;
+}
+
+#dark .main {
+    background-color: #1f2618;
+}
+
+
+#light .inputCityName{
+    color: #435334;
+}
+
+#dark .inputCityName{
+    
+    background-color: #9EB384;
+}
+
+
+#light .btnCitySearch{
+  background-color: #9EB384;
+}
+
+#dark .btnCitySearch{
+    background-color: #435334;
+}
+
+/* .iconSearch{
+
+} */
+
+#light .textColor{
+    color: #435334;
+}
+
+#dark .textColor{
+    color: #CEDEBD;
+}
+
+
+#light .btnCurrentCity{
+    background-color: #9EB384;
+}
+
+#dark .btnCurrentCity{
+    background-color: #9EB384;
+} 
+
+.switch {
+    position: fixed;
+    float: right;
+    top: 10px;
+    right: 20px;
+}
+
+#light .tab {
+    background-color: #FFFFFF;
+}
+
+#dark .tab {
+    background-color: #1f2618;
+}
+
+#light .info {
+    color: #000000;
+}
+
+#dark .info {
+    color: #FFFFFF;
+}
+
+.card1{
+    width: 90%;
+}
+
+#light .card1 {
+    background-color: #FAF1E4;
+    color: #435334;
+}
+
+#dark .card1 {
+    background-color: #435334;
+    color: #9EB384;
+}
+
+
+.headerCus{
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+
+#light .headerCus {
+    background-color: #9EB384;
+    color: #435334;
+}
+
+#dark .headerCus {
+    background-color: #1f2618;
+    color: #9EB384;
+}
+
+#light .iconData{
+    color: #9EB384;
+}
+
+#dark .iconData{
+    color: #1f2618;
+}
+
+
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
